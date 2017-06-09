@@ -19,10 +19,7 @@ body {
 .dark-green-cell {
   background-color: #61B34F;
 }
-.light-green-cell {
-  background-color: #82C276;
-  color: #406438
-}
+
 .row {
 	display: flex;
   flex-direction: row;
@@ -39,6 +36,11 @@ body {
   font-size: 36px;
   font-family: sans-serif;
   font-weight: 100;
+  cursor: pointer;
+}
+.light-green-cell {
+  background-color: #82C276;
+  color: #406438;
 }
 .disappear {
   display: none;
@@ -46,4 +48,15 @@ body {
 .wide-load {
   width: 75%;
   line-height: 2.5em;
+  text-align: right;
+  padding: 10px;
+}
+.hover:hover {
+  background-color: #82C276;
+}
+.light-green-cell:hover {
+  color: white;
+}
+input[type=button]:focus {
+  outline: none;
 }
