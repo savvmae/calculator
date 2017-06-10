@@ -9,6 +9,9 @@ for (i = 0; i < allCells.length; i ++) {
     if (clickedInput === "=") {
       stringOfInput = eval(stringOfInput);
       displayCell.value = stringOfInput;
+    } else if (clickedInput === "sqrt") {
+      stringOfInput = Math.sqrt(stringOfInput);
+      displayCell.value = stringOfInput;
     } else if (clickedInput === "C") {
       stringOfInput = "";
       displayCell.value = stringOfInput;
